@@ -15,10 +15,12 @@
   padding: 0;
 
   box-sizing: border-box;
-
-  font-family: "SUSE", sans-serif;
 }
 
 h1, h2, h3 {
   font-family: "PokémonSolid";
+}
+
+body {
+  font-family: "SUSE", sans-serif;
 }

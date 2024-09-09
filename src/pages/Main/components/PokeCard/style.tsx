@@ -8,7 +8,7 @@ const Card = styled.div`
     flex-direction: column;
 
     border-radius: 20px;
-    box-shadow: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 `;
 
 const LightCard = styled(Card)`
@@ -25,4 +25,16 @@ const DarkCard = styled(Card)`
     border: 2px solid #fff;
 `;
 
-export { LightCard, DarkCard };
+const PokeSprite = styled.img`
+    background-color: inherit;
+`;
+
+const Footer = styled.img`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: inherit;
+`;
+
+export { LightCard, DarkCard, PokeSprite, Footer };

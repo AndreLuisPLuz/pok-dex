@@ -8,9 +8,8 @@ const Nav = styled.nav`
 
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    gap: 1rem;
     
     padding: 0 3rem 0 3rem;
 
@@ -18,9 +17,14 @@ const Nav = styled.nav`
     border-bottom: 2px solid #000;
 `;
 
-const Icon = styled.img`
-    height: 35px;
+const Column = styled.div`
+    height: 100%;
     width: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
 `;
 
-export { Nav, Icon };
+export { Nav, Column };

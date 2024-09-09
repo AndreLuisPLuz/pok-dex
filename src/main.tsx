@@ -1,13 +1,17 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Navbar from './components/Navbar/index.tsx'
+import App from './App.tsx'
+import MainPage from './pages/Main/index.tsx'
 import './index.css'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Navbar/>
+    element:
+    <App>
+      <MainPage/>
+    </App>
   }
 ]);
 

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+@font-face {
+  font-family: "PokémonSolid";
+  src: url("/fonts/Pokemon\ Solid.ttf");
+}
+
+@font-face {
+  font-family: "PokémonHollow";
+  src: url("/fonts/Pokemon\ Hollow.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-boxs;
+
+  font-family: "SUSE", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "PokémonSolid";
+}

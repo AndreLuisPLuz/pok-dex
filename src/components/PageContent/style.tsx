@@ -10,7 +10,7 @@ const Page = styled.main`
     align-items: flex-start;
     gap: 2rem;
 
-    padding: 60px 3rem 60px 3rem;
+    padding: 90px 6rem 60px 6rem;
 `;
 
 const LightPage = styled(Page)`
@@ -19,7 +19,7 @@ const LightPage = styled(Page)`
 `;
 
 const DarkPage = styled(Page)`
-    background-color: #3f3e3d;
+    background-color: #535251;
     color: #fff;
 `;
 

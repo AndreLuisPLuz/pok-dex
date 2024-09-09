@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const Button = styled.button`
-    height: auto;
-    width: auto;
+    height: 40px;
+    width: 40px;
 
     border-radius: 100%;
 `;

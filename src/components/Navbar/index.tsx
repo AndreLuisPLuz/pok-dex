@@ -7,8 +7,8 @@ import Icon from "../Icon";
 import IconButton from "../IconButton";
 
 import pokeballIcon from "../../assets/images/pokemon-icon.svg";
-import lightModeIcon from "../../assets/images/light-mode.png";
-import darkModeIcon from "../../assets/images/night-mode.png";
+import lightModeIcon from "../../assets/images/sun-light-svgrepo-com.svg";
+import darkModeIcon from "../../assets/images/moon-dark-theme-svgrepo-com.svg";
 
 const Navbar = (): ReactNode => {
     const theme = useContext(ThemeContext);

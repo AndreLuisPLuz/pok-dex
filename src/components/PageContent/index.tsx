@@ -3,12 +3,16 @@ import { ThemeContext } from "../../contexts/theme";
 import { match } from "ts-pattern";
 import { DarkPage, LightPage } from "./style";
 
-const PageContent = (): ReactNode => {
+type PageContentProps = {
+    children: ReactNode | ReactNode[]
+};
+
+const PageContent = (props: PageContentProps): ReactNode => {
     const theme = useContext(ThemeContext);
 
     return match(theme)
-        .with({ palette: "light" }, () => <LightPage/>)
-        .with({ palette: "dark" }, () => <DarkPage/>)
+        .with({ palette: "light" }, () => <LightPage { ...props }/>)
+        .with({ palette: "dark" }, () => <DarkPage { ...props }/>)
         .exhaustive();
 };
 

@@ -6,6 +6,9 @@ const Card = styled.div`
 
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+    padding: 2rem;
 
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -26,10 +29,12 @@ const DarkCard = styled(Card)`
 `;
 
 const PokeSprite = styled.img`
+    max-height: 2000px;
+    max-width: 200px;
     background-color: inherit;
 `;
 
-const Footer = styled.img`
+const Footer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;

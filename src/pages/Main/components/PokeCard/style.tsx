@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
 const Card = styled.div`
-    height: 300px;
-    width: 300px;
+    height: 230px;
+    width: 230px;
 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 
-    padding: 2rem;
+    padding: 1rem;
 
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -29,8 +30,8 @@ const DarkCard = styled(Card)`
 `;
 
 const PokeSprite = styled.img`
-    max-height: 2000px;
-    max-width: 200px;
+    max-height: 150px;
+    max-width: 150px;
     background-color: inherit;
 `;
 

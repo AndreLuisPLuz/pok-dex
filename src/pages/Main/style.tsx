@@ -6,7 +6,7 @@ const List = styled.div`
 
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     flex-wrap: wrap;
     gap: 3rem;
 `;

@@ -2,7 +2,7 @@ import { PokeCardData } from "../types/pokeCardData";
 import NotFoundError from "../../errors/notFoundError";
 import pokeApi from "../pokeApi";
 
-const fetchPokemonCard = async(id: number): Promise<PokeCardData> => {
+const fetchPokemonCardService = async(id: number): Promise<PokeCardData> => {
     const response = await pokeApi.get(`/pokemon/${id}`);
 
     if (response.status !== 200)
@@ -15,4 +15,4 @@ const fetchPokemonCard = async(id: number): Promise<PokeCardData> => {
     }
 };
 
-export { fetchPokemonCard };
+export { fetchPokemonCardService };
